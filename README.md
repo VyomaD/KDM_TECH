@@ -9,4 +9,4 @@ Video Link : https://youtu.be/57-OYS8sCOc
 
 Wiki Link : https://github.com/VyomaD/kdm_tech/wiki/Assignment-2
 
-Video Link :
+Video Link : https://www.youtube.com/watch?v=IIcp2wcORKQ
