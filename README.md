@@ -34,3 +34,11 @@ Wiki Link : https://github.com/VyomaD/kdm_tech/wiki/Assignment-5
 Video Link : https://www.youtube.com/watch?v=voejcxJfvIA
 
 
+
+
+# KDM Assignment - ICP_Lab6
+
+Wiki Link : https://github.com/VyomaD/kdm_tech/wiki/Assignment-6
+
+Video Link : https://www.youtube.com/watch?v=6TZRmvyZGX8
+
