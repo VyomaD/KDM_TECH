@@ -1,0 +1,277 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP_8_Exercises"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP_8_Exercises">
+    <Prefix name="" IRI="http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP_8_Exercises"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#OBJECTS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SUBJECTS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#available_wearable_healthcare_sensors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#exercises"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#exercises_of_neck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#highly_anisotropic_network_composite_sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kirigami_structured_highly_anisotropic_network_composite_sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kirigami_structured_piezoelectric_network_composite_sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#network_sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#piezoelectric_network_sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#prevention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rigid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#structured_piezoelectric_network_composite_sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#structured_piezoelectric_network_sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#we"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#are"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#propose"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requires"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#available_wearable_healthcare_sensors"/>
+        <Class IRI="#SUBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#available_wearable_healthcare_sensors"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#are"/>
+            <Class IRI="#rigid"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#exercises"/>
+        <Class IRI="#OBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#exercises_of_neck"/>
+        <Class IRI="#exercises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#highly_anisotropic_network_composite_sensor"/>
+        <Class IRI="#piezoelectric_network_sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kirigami_structured_highly_anisotropic_network_composite_sensor"/>
+        <Class IRI="#highly_anisotropic_network_composite_sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kirigami_structured_piezoelectric_network_composite_sensor"/>
+        <Class IRI="#structured_piezoelectric_network_composite_sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#network_sensor"/>
+        <Class IRI="#OBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#piezoelectric_network_sensor"/>
+        <Class IRI="#network_sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#prevention"/>
+        <Class IRI="#SUBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#prevention"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requires"/>
+            <Class IRI="#exercises"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#prevention"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requires"/>
+            <Class IRI="#exercises_of_neck"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rigid"/>
+        <Class IRI="#OBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#structured_piezoelectric_network_composite_sensor"/>
+        <Class IRI="#structured_piezoelectric_network_sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#structured_piezoelectric_network_sensor"/>
+        <Class IRI="#piezoelectric_network_sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#we"/>
+        <Class IRI="#SUBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#we"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#propose"/>
+            <Class IRI="#highly_anisotropic_network_composite_sensor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#we"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#propose"/>
+            <Class IRI="#kirigami_structured_highly_anisotropic_network_composite_sensor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#we"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#propose"/>
+            <Class IRI="#kirigami_structured_piezoelectric_network_composite_sensor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#we"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#propose"/>
+            <Class IRI="#network_sensor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#we"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#propose"/>
+            <Class IRI="#piezoelectric_network_sensor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#we"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#propose"/>
+            <Class IRI="#structured_piezoelectric_network_composite_sensor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#we"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#propose"/>
+            <Class IRI="#structured_piezoelectric_network_sensor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#OBJECTS"/>
+        <Class IRI="#available_wearable_healthcare_sensors"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OBJECTS"/>
+        <Class IRI="#prevention"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OBJECTS"/>
+        <Class IRI="#we"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#are"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#propose"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requires"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#are"/>
+        <Class IRI="#available_wearable_healthcare_sensors"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#propose"/>
+        <Class IRI="#we"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requires"/>
+        <Class IRI="#prevention"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#are"/>
+        <Class IRI="#rigid"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#propose"/>
+        <Class IRI="#highly_anisotropic_network_composite_sensor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#propose"/>
+        <Class IRI="#kirigami_structured_highly_anisotropic_network_composite_sensor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#propose"/>
+        <Class IRI="#kirigami_structured_piezoelectric_network_composite_sensor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#propose"/>
+        <Class IRI="#network_sensor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#propose"/>
+        <Class IRI="#piezoelectric_network_sensor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#propose"/>
+        <Class IRI="#structured_piezoelectric_network_composite_sensor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#propose"/>
+        <Class IRI="#structured_piezoelectric_network_sensor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requires"/>
+        <Class IRI="#exercises"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requires"/>
+        <Class IRI="#exercises_of_neck"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#are"/>
+        <ObjectProperty IRI="#propose"/>
+        <ObjectProperty IRI="#requires"/>
+    </DisjointObjectProperties>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

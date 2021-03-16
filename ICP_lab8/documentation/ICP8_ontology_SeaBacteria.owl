@@ -1,0 +1,625 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology">
+    <Prefix name="" IRI="http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#LPS_receptors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OBJECTS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SUBJECTS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#assumption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bacteria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bacterial_detection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cell_wall_lipopolysaccharide_structures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#common_constituent_of_culturable_microbiota"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#deep_Pacific_Ocean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#defined_globally"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#defined_locally"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#foundation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#genus_Moritella"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#immunology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mammalian_LPS_receptors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mammalian_cells"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#opportunity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pattern_recognition_strategies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sea_bacteria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#test_of_hypothesis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#they"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#universal_bacterial_detection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#we"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#activated"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#assumption"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#be"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#being_identified_as"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contained"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#determined_As"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#had"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inflammatory_responses_from"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_foundation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#of_is"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#recognize"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#responses_from"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#was_identified"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#were_cultivated"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#LPS_receptors"/>
+        <Class IRI="#SUBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#assumption"/>
+        <Class IRI="#SUBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#assumption"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_foundation"/>
+            <Class IRI="#immunology"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bacteria"/>
+        <Class IRI="#OBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bacterial_detection"/>
+        <Class IRI="#SUBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cell_wall_lipopolysaccharide_structures"/>
+        <Class IRI="#OBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#common_constituent_of_culturable_microbiota"/>
+        <Class IRI="#OBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#deep_Pacific_Ocean"/>
+        <Class IRI="#OBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#defined_globally"/>
+        <Class IRI="#OBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#defined_locally"/>
+        <Class IRI="#OBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#foundation"/>
+        <Class IRI="#OBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#genus_Moritella"/>
+        <Class IRI="#SUBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#genus_Moritella"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#was_identified"/>
+            <Class IRI="#common_constituent_of_culturable_microbiota"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#immunology"/>
+        <Class IRI="#OBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mammalian_LPS_receptors"/>
+        <Class IRI="#OBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mammalian_cells"/>
+        <Class IRI="#SUBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mammalian_cells"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#recognize"/>
+            <Class IRI="#bacteria"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#opportunity"/>
+        <Class IRI="#bacteria"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pattern_recognition_strategies"/>
+        <Class IRI="#SUBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pattern_recognition_strategies"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#be"/>
+            <Class IRI="#defined_globally"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pattern_recognition_strategies"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#be"/>
+            <Class IRI="#defined_locally"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sea_bacteria"/>
+        <Class IRI="#SUBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sea_bacteria"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#activated"/>
+            <Class IRI="#mammalian_LPS_receptors"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sea_bacteria"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contained"/>
+            <Class IRI="#cell_wall_lipopolysaccharide_structures"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sea_bacteria"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#inflammatory_responses_from"/>
+            <Class IRI="#mammalian_LPS_receptors"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sea_bacteria"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#responses_from"/>
+            <Class IRI="#mammalian_LPS_receptors"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sea_bacteria"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#were_cultivated"/>
+            <Class IRI="#deep_Pacific_Ocean"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#test_of_hypothesis"/>
+        <Class IRI="#OBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#they"/>
+        <Class IRI="#mammalian_cells"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#they"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#had"/>
+            <Class IRI="#opportunity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#universal_bacterial_detection"/>
+        <Class IRI="#SUBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#universal_bacterial_detection"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#assumption"/>
+            <Class IRI="#foundation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#we"/>
+        <Class IRI="#SUBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#we"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#determined_As"/>
+            <Class IRI="#test_of_hypothesis"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#OBJECTS"/>
+        <Class IRI="#assumption"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OBJECTS"/>
+        <Class IRI="#genus_Moritella"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OBJECTS"/>
+        <Class IRI="#mammalian_cells"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OBJECTS"/>
+        <Class IRI="#sea_bacteria"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OBJECTS"/>
+        <Class IRI="#universal_bacterial_detection"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OBJECTS"/>
+        <Class IRI="#we"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#bacteria"/>
+        <Class IRI="#they"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#activated"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#assumption"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#be"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#being_identified_as"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#contained"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#determined_As"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#had"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#inflammatory_responses_from"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is"/>
+        <ObjectProperty IRI="#assumption"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_foundation"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#of_is"/>
+        <ObjectProperty IRI="#assumption"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#recognize"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#responses_from"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#was_identified"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#were_cultivated"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#activated"/>
+        <Class IRI="#sea_bacteria"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#assumption"/>
+        <Class IRI="#universal_bacterial_detection"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#be"/>
+        <Class IRI="#pattern_recognition_strategies"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#being_identified_as"/>
+        <Class IRI="#genus_Moritella"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contained"/>
+        <Class IRI="#sea_bacteria"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#determined_As"/>
+        <Class IRI="#we"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#had"/>
+        <Class IRI="#they"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inflammatory_responses_from"/>
+        <Class IRI="#sea_bacteria"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is"/>
+        <Class IRI="#universal_bacterial_detection"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_foundation"/>
+        <Class IRI="#assumption"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#of_is"/>
+        <Class IRI="#universal_bacterial_detection"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#recognize"/>
+        <Class IRI="#mammalian_cells"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#was_identified"/>
+        <Class IRI="#genus_Moritella"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#were_cultivated"/>
+        <Class IRI="#sea_bacteria"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#activated"/>
+        <Class IRI="#mammalian_LPS_receptors"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#assumption"/>
+        <Class IRI="#foundation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#be"/>
+        <Class IRI="#defined_globally"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#be"/>
+        <Class IRI="#defined_locally"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#being_identified_as"/>
+        <Class IRI="#common_constituent_of_culturable_microbiota"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contained"/>
+        <Class IRI="#cell_wall_lipopolysaccharide_structures"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#determined_As"/>
+        <Class IRI="#test_of_hypothesis"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#had"/>
+        <Class IRI="#opportunity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inflammatory_responses_from"/>
+        <Class IRI="#mammalian_LPS_receptors"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is"/>
+        <Class IRI="#foundation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_foundation"/>
+        <Class IRI="#immunology"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#of_is"/>
+        <Class IRI="#foundation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#recognize"/>
+        <Class IRI="#bacteria"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#was_identified"/>
+        <Class IRI="#common_constituent_of_culturable_microbiota"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#were_cultivated"/>
+        <Class IRI="#deep_Pacific_Ocean"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#activated"/>
+        <ObjectProperty IRI="#assumption"/>
+        <ObjectProperty IRI="#be"/>
+        <ObjectProperty IRI="#being_identified_as"/>
+        <ObjectProperty IRI="#contained"/>
+        <ObjectProperty IRI="#determined_As"/>
+        <ObjectProperty IRI="#had"/>
+        <ObjectProperty IRI="#inflammatory_responses_from"/>
+        <ObjectProperty IRI="#is_foundation"/>
+        <ObjectProperty IRI="#recognize"/>
+        <ObjectProperty IRI="#responses_from"/>
+        <ObjectProperty IRI="#was_identified"/>
+        <ObjectProperty IRI="#were_cultivated"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#activated"/>
+        <ObjectProperty IRI="#assumption"/>
+        <ObjectProperty IRI="#be"/>
+        <ObjectProperty IRI="#being_identified_as"/>
+        <ObjectProperty IRI="#contained"/>
+        <ObjectProperty IRI="#determined_As"/>
+        <ObjectProperty IRI="#inflammatory_responses_from"/>
+        <ObjectProperty IRI="#is_foundation"/>
+        <ObjectProperty IRI="#recognize"/>
+        <ObjectProperty IRI="#responses_from"/>
+        <ObjectProperty IRI="#was_identified"/>
+        <ObjectProperty IRI="#were_cultivated"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#activated"/>
+        <ObjectProperty IRI="#assumption"/>
+        <ObjectProperty IRI="#be"/>
+        <ObjectProperty IRI="#being_identified_as"/>
+        <ObjectProperty IRI="#contained"/>
+        <ObjectProperty IRI="#determined_As"/>
+        <ObjectProperty IRI="#inflammatory_responses_from"/>
+        <ObjectProperty IRI="#recognize"/>
+        <ObjectProperty IRI="#responses_from"/>
+        <ObjectProperty IRI="#was_identified"/>
+        <ObjectProperty IRI="#were_cultivated"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#activated"/>
+        <ObjectProperty IRI="#assumption"/>
+        <ObjectProperty IRI="#being_identified_as"/>
+        <ObjectProperty IRI="#contained"/>
+        <ObjectProperty IRI="#determined_As"/>
+        <ObjectProperty IRI="#inflammatory_responses_from"/>
+        <ObjectProperty IRI="#recognize"/>
+        <ObjectProperty IRI="#responses_from"/>
+        <ObjectProperty IRI="#was_identified"/>
+        <ObjectProperty IRI="#were_cultivated"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#activated"/>
+        <ObjectProperty IRI="#assumption"/>
+        <ObjectProperty IRI="#contained"/>
+        <ObjectProperty IRI="#determined_As"/>
+        <ObjectProperty IRI="#inflammatory_responses_from"/>
+        <ObjectProperty IRI="#recognize"/>
+        <ObjectProperty IRI="#responses_from"/>
+        <ObjectProperty IRI="#was_identified"/>
+        <ObjectProperty IRI="#were_cultivated"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#activated"/>
+        <ObjectProperty IRI="#assumption"/>
+        <ObjectProperty IRI="#contained"/>
+        <ObjectProperty IRI="#determined_As"/>
+        <ObjectProperty IRI="#inflammatory_responses_from"/>
+        <ObjectProperty IRI="#recognize"/>
+        <ObjectProperty IRI="#was_identified"/>
+        <ObjectProperty IRI="#were_cultivated"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#assumption"/>
+        <ObjectProperty IRI="#contained"/>
+        <ObjectProperty IRI="#determined_As"/>
+        <ObjectProperty IRI="#inflammatory_responses_from"/>
+        <ObjectProperty IRI="#recognize"/>
+        <ObjectProperty IRI="#was_identified"/>
+        <ObjectProperty IRI="#were_cultivated"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#assumption"/>
+        <ObjectProperty IRI="#determined_As"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#assumption"/>
+        <ObjectProperty IRI="#determined_As"/>
+        <ObjectProperty IRI="#inflammatory_responses_from"/>
+        <ObjectProperty IRI="#recognize"/>
+        <ObjectProperty IRI="#was_identified"/>
+        <ObjectProperty IRI="#were_cultivated"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#assumption"/>
+        <ObjectProperty IRI="#determined_As"/>
+        <ObjectProperty IRI="#recognize"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#assumption"/>
+        <ObjectProperty IRI="#determined_As"/>
+        <ObjectProperty IRI="#recognize"/>
+        <ObjectProperty IRI="#was_identified"/>
+        <ObjectProperty IRI="#were_cultivated"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#is"/>
+        <ObjectProperty IRI="#of_is"/>
+    </DisjointObjectProperties>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

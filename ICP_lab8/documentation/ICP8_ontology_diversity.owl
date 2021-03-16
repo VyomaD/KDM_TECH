@@ -1,0 +1,454 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity">
+    <Prefix name="" IRI="http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Asians"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blacks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Latinos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OBJECTS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SUBJECTS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Whites"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#addition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#association"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#conjoint_experiment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#desirable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#different_things"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#disagreeing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diverse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#heterogeneity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#more_diverse_than_predominately_Black_neighborhoods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#neighborhoods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stronger_for_Whites_than_for_Blacks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#term_diversity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#than_blacks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#their_own_group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#we"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#where_largest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#whites"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#can_mean"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#can_refer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_largest_as"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_stronger_for"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_stronger_than"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_strongly_associated_with"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#use"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#view_neighborhoods_In"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#view_neighborhoods_as"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Asians"/>
+        <Class IRI="#SUBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asians"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#view_neighborhoods_In"/>
+            <Class IRI="#addition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blacks"/>
+        <Class IRI="#SUBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blacks"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#view_neighborhoods_In"/>
+            <Class IRI="#addition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Latinos"/>
+        <Class IRI="#SUBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Latinos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#view_neighborhoods_In"/>
+            <Class IRI="#neighborhoods"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Whites"/>
+        <Class IRI="#SUBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Whites"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#view_neighborhoods_as"/>
+            <Class IRI="#more_diverse_than_predominately_Black_neighborhoods"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#addition"/>
+        <Class IRI="#OBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#association"/>
+        <Class IRI="#SUBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#association"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is"/>
+            <Class IRI="#stronger_for_Whites_than_for_Blacks"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#association"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_stronger_for"/>
+            <Class IRI="#whites"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#association"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_stronger_than"/>
+            <Class IRI="#than_blacks"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#conjoint_experiment"/>
+        <Class IRI="#OBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#desirable"/>
+        <Class IRI="#OBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#different_things"/>
+        <Class IRI="#OBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#disagreeing"/>
+        <Class IRI="#OBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#diverse"/>
+        <Class IRI="#OBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#heterogeneity"/>
+        <Class IRI="#OBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#more_diverse_than_predominately_Black_neighborhoods"/>
+        <Class IRI="#OBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#neighborhoods"/>
+        <Class IRI="#OBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stronger_for_Whites_than_for_Blacks"/>
+        <Class IRI="#OBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#term_diversity"/>
+        <Class IRI="#SUBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#term_diversity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#can_mean"/>
+            <Class IRI="#different_things"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#term_diversity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#can_refer"/>
+            <Class IRI="#heterogeneity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#than_blacks"/>
+        <Class IRI="#OBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#their_own_group"/>
+        <Class IRI="#SUBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#their_own_group"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is"/>
+            <Class IRI="#where_largest"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#their_own_group"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_largest_as"/>
+            <Class IRI="#diverse"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#we"/>
+        <Class IRI="#SUBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#we"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#use"/>
+            <Class IRI="#conjoint_experiment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#where_largest"/>
+        <Class IRI="#OBJECTS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#whites"/>
+        <Class IRI="#OBJECTS"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Asians"/>
+        <Class IRI="#OBJECTS"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Blacks"/>
+        <Class IRI="#OBJECTS"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Latinos"/>
+        <Class IRI="#OBJECTS"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OBJECTS"/>
+        <Class IRI="#Whites"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OBJECTS"/>
+        <Class IRI="#association"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OBJECTS"/>
+        <Class IRI="#term_diversity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OBJECTS"/>
+        <Class IRI="#their_own_group"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OBJECTS"/>
+        <Class IRI="#we"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#can_mean"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#can_refer"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_largest_as"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_stronger_for"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_stronger_than"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_strongly_associated_with"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#use"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#view_neighborhoods_In"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#view_neighborhoods_as"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#can_mean"/>
+        <Class IRI="#term_diversity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#can_refer"/>
+        <Class IRI="#term_diversity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is"/>
+        <Class IRI="#association"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_largest_as"/>
+        <Class IRI="#their_own_group"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_stronger_for"/>
+        <Class IRI="#association"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_stronger_than"/>
+        <Class IRI="#association"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#use"/>
+        <Class IRI="#we"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#view_neighborhoods_as"/>
+        <Class IRI="#Whites"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="#SUBJECTS"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#can_mean"/>
+        <Class IRI="#different_things"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#can_refer"/>
+        <Class IRI="#heterogeneity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is"/>
+        <Class IRI="#stronger_for_Whites_than_for_Blacks"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_largest_as"/>
+        <Class IRI="#diverse"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_stronger_for"/>
+        <Class IRI="#whites"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_stronger_than"/>
+        <Class IRI="#than_blacks"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#use"/>
+        <Class IRI="#conjoint_experiment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#view_neighborhoods_as"/>
+        <Class IRI="#more_diverse_than_predominately_Black_neighborhoods"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="#OBJECTS"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#can_mean"/>
+        <ObjectProperty IRI="#can_refer"/>
+        <ObjectProperty IRI="#is"/>
+        <ObjectProperty IRI="#is_largest_as"/>
+        <ObjectProperty IRI="#is_stronger_for"/>
+        <ObjectProperty IRI="#is_stronger_than"/>
+        <ObjectProperty IRI="#is_strongly_associated_with"/>
+        <ObjectProperty IRI="#use"/>
+        <ObjectProperty IRI="#view_neighborhoods_In"/>
+        <ObjectProperty IRI="#view_neighborhoods_as"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#can_mean"/>
+        <ObjectProperty IRI="#is"/>
+        <ObjectProperty IRI="#is_largest_as"/>
+        <ObjectProperty IRI="#is_stronger_for"/>
+        <ObjectProperty IRI="#is_stronger_than"/>
+        <ObjectProperty IRI="#is_strongly_associated_with"/>
+        <ObjectProperty IRI="#use"/>
+        <ObjectProperty IRI="#view_neighborhoods_In"/>
+        <ObjectProperty IRI="#view_neighborhoods_as"/>
+    </DisjointObjectProperties>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
