@@ -1,0 +1,1369 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
+  "header": {
+    "baseIris": [
+      "http://www.w3.org/2002/07/owl",
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity"
+    ],
+    "prefixList": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "xml": "http://www.w3.org/XML/1998/namespace",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity"
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.44",
+      "translation": [
+        357.79,
+        238.34
+      ],
+      "paused": false
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "0",
+      "type": "owl:Class"
+    },
+    {
+      "id": "5",
+      "type": "owl:Class"
+    },
+    {
+      "id": "6",
+      "type": "owl:Class"
+    },
+    {
+      "id": "11",
+      "type": "owl:Class"
+    },
+    {
+      "id": "3",
+      "type": "owl:Class"
+    },
+    {
+      "id": "25",
+      "type": "owl:Class"
+    },
+    {
+      "id": "26",
+      "type": "owl:Class"
+    },
+    {
+      "id": "34",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "38",
+      "type": "owl:Class"
+    },
+    {
+      "id": "33",
+      "type": "owl:Class"
+    },
+    {
+      "id": "39",
+      "type": "owl:Class"
+    },
+    {
+      "id": "40",
+      "type": "owl:Class"
+    },
+    {
+      "id": "41",
+      "type": "owl:Class"
+    },
+    {
+      "id": "30",
+      "type": "owl:Class"
+    },
+    {
+      "id": "10",
+      "type": "owl:Class"
+    },
+    {
+      "id": "4",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "44",
+      "type": "owl:Class"
+    },
+    {
+      "id": "36",
+      "type": "owl:Class"
+    },
+    {
+      "id": "28",
+      "type": "owl:Class"
+    },
+    {
+      "id": "24",
+      "type": "owl:Class"
+    },
+    {
+      "id": "56",
+      "type": "owl:Class"
+    },
+    {
+      "id": "8",
+      "type": "owl:Class"
+    },
+    {
+      "id": "45",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "0",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#term_diversity",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "term_diversity"
+      },
+      "pos": [
+        236.39,
+        506.06
+      ]
+    },
+    {
+      "id": "5",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#we",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "we"
+      },
+      "pos": [
+        418.37,
+        350.39
+      ]
+    },
+    {
+      "id": "6",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#different_things",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "different_things"
+      },
+      "pos": [
+        267.71,
+        86.08
+      ]
+    },
+    {
+      "id": "11",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#Blacks",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "Blacks"
+      },
+      "pos": [
+        1023.26,
+        990.83
+      ]
+    },
+    {
+      "id": "3",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#disagreeing",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "disagreeing"
+      },
+      "pos": [
+        627.42,
+        -211.84
+      ]
+    },
+    {
+      "id": "25",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#where_largest",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "where_largest"
+      },
+      "pos": [
+        1178.79,
+        97.41
+      ]
+    },
+    {
+      "id": "26",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#Latinos",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "Latinos"
+      },
+      "pos": [
+        1080.64,
+        359.88
+      ]
+    },
+    {
+      "id": "34",
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "label": {
+        "undefined": "Thing"
+      },
+      "pos": [
+        1673.65,
+        1184.33
+      ]
+    },
+    {
+      "id": "38",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#whites",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "whites"
+      },
+      "pos": [
+        676.06,
+        658.73
+      ]
+    },
+    {
+      "id": "33",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#heterogeneity",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "heterogeneity"
+      },
+      "pos": [
+        208.93,
+        137.29
+      ]
+    },
+    {
+      "id": "39",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#their_own_group",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "their_own_group"
+      },
+      "pos": [
+        1223.53,
+        453.65
+      ]
+    },
+    {
+      "id": "40",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#Whites",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "Whites"
+      },
+      "pos": [
+        319.33,
+        835.87
+      ]
+    },
+    {
+      "id": "41",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#association",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "association"
+      },
+      "pos": [
+        497.79,
+        996.61
+      ]
+    },
+    {
+      "id": "30",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#more_diverse_than_predominately_Black_neighborhoods",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "more_diverse_than_predominately_Black_neighborhoods"
+      },
+      "pos": [
+        280,
+        437.13
+      ]
+    },
+    {
+      "id": "10",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#addition",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "addition"
+      },
+      "pos": [
+        1083.18,
+        593.3
+      ]
+    },
+    {
+      "id": "4",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#OBJECTS",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "OBJECTS"
+      },
+      "pos": [
+        692.8,
+        213.74
+      ]
+    },
+    {
+      "id": "1",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#SUBJECTS",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "SUBJECTS"
+      },
+      "pos": [
+        773.13,
+        676.48
+      ]
+    },
+    {
+      "id": "44",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#desirable",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "desirable"
+      },
+      "pos": [
+        794.53,
+        -205.23
+      ]
+    },
+    {
+      "id": "36",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#stronger_for_Whites_than_for_Blacks",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "stronger_for_Whites_than_for_Blacks"
+      },
+      "pos": [
+        382.77,
+        594.36
+      ]
+    },
+    {
+      "id": "28",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#neighborhoods",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "neighborhoods"
+      },
+      "pos": [
+        1029.78,
+        -47.59
+      ]
+    },
+    {
+      "id": "24",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#conjoint_experiment",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "conjoint_experiment"
+      },
+      "pos": [
+        389.09,
+        -63.19
+      ]
+    },
+    {
+      "id": "56",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#Asians",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "Asians"
+      },
+      "pos": [
+        1132.71,
+        941.84
+      ]
+    },
+    {
+      "id": "8",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#than_blacks",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "than_blacks"
+      },
+      "pos": [
+        460.14,
+        630.66
+      ]
+    },
+    {
+      "id": "45",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#diverse",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "diverse"
+      },
+      "pos": [
+        1114.34,
+        60.88
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "2",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "7",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "9",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "12",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "23",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "27",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "29",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "31",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "32",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "35",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "37",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "42",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "43",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "46",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "47",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "48",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "49",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "50",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "51",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "52",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "53",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "54",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "55",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "57",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "58",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "59",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "60",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "61",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "62",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "63",
+      "type": "owl:disjointWith"
+    },
+    {
+      "id": "64",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "18",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "65",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "66",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "67",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "68",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "69",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "70",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "71",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "72",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "73",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "74",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "75",
+      "type": "rdfs:subClassOf"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "2",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "3",
+      "range": "4",
+      "pos": [
+        660.11,
+        0.95
+      ]
+    },
+    {
+      "id": "7",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "8",
+      "range": "4",
+      "pos": [
+        576.47,
+        422.2
+      ]
+    },
+    {
+      "id": "9",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "10",
+      "range": "4",
+      "pos": [
+        887.99,
+        403.52
+      ]
+    },
+    {
+      "id": "12",
+      "iri": "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "baseIri": "http://www.w3.org/2002/07/owl",
+      "label": {
+        "IRI-based": "topObjectProperty"
+      },
+      "attributes": [
+        "object",
+        "external"
+      ],
+      "domain": "1",
+      "range": "4",
+      "subproperty": [
+        "18"
+      ],
+      "pos": [
+        732.97,
+        445.11
+      ]
+    },
+    {
+      "id": "23",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "24",
+      "range": "4",
+      "pos": [
+        540.94,
+        75.28
+      ]
+    },
+    {
+      "id": "27",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "28",
+      "range": "4",
+      "pos": [
+        861.29,
+        83.08
+      ]
+    },
+    {
+      "id": "29",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "30",
+      "range": "4",
+      "pos": [
+        486.4,
+        325.43
+      ]
+    },
+    {
+      "id": "31",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "6",
+      "range": "4",
+      "pos": [
+        480.25,
+        149.91
+      ]
+    },
+    {
+      "id": "32",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "33",
+      "range": "4",
+      "pos": [
+        450.87,
+        175.52
+      ]
+    },
+    {
+      "id": "35",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "36",
+      "range": "4",
+      "pos": [
+        537.79,
+        404.05
+      ]
+    },
+    {
+      "id": "37",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "38",
+      "range": "4",
+      "pos": [
+        684.43,
+        436.24
+      ]
+    },
+    {
+      "id": "42",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#is_stronger_than",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "is_stronger_than"
+      },
+      "attributes": [
+        "someValues",
+        "object"
+      ],
+      "domain": "41",
+      "range": "8",
+      "superproperty": [
+        "12"
+      ],
+      "pos": [
+        478.96,
+        813.63
+      ]
+    },
+    {
+      "id": "43",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#is_stronger_for",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "is_stronger_for"
+      },
+      "attributes": [
+        "someValues",
+        "object"
+      ],
+      "domain": "41",
+      "range": "38",
+      "superproperty": [
+        "12"
+      ],
+      "pos": [
+        586.92,
+        827.67
+      ]
+    },
+    {
+      "id": "46",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#is",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "is"
+      },
+      "attributes": [
+        "someValues",
+        "object"
+      ],
+      "domain": "41",
+      "range": "36",
+      "superproperty": [
+        "12"
+      ],
+      "pos": [
+        440.28,
+        795.48
+      ]
+    },
+    {
+      "id": "47",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#can_mean",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "can_mean"
+      },
+      "attributes": [
+        "someValues",
+        "object"
+      ],
+      "domain": "0",
+      "range": "6",
+      "superproperty": [
+        "12"
+      ],
+      "pos": [
+        252.05,
+        296.07
+      ]
+    },
+    {
+      "id": "48",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#can_refer",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "can_refer"
+      },
+      "attributes": [
+        "someValues",
+        "object"
+      ],
+      "domain": "0",
+      "range": "33",
+      "superproperty": [
+        "12"
+      ],
+      "pos": [
+        222.66,
+        321.68
+      ]
+    },
+    {
+      "id": "49",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#is_largest_as",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "is_largest_as"
+      },
+      "attributes": [
+        "someValues",
+        "object"
+      ],
+      "domain": "39",
+      "range": "45",
+      "superproperty": [
+        "12"
+      ],
+      "pos": [
+        1168.94,
+        257.26
+      ]
+    },
+    {
+      "id": "50",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#is",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "is"
+      },
+      "attributes": [
+        "someValues",
+        "object"
+      ],
+      "domain": "39",
+      "range": "25",
+      "superproperty": [
+        "12"
+      ],
+      "pos": [
+        1201.16,
+        275.53
+      ]
+    },
+    {
+      "id": "51",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#view_neighborhoods_In",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "view_neighborhoods_In"
+      },
+      "attributes": [
+        "someValues",
+        "object"
+      ],
+      "domain": "26",
+      "range": "28",
+      "superproperty": [
+        "12"
+      ],
+      "pos": [
+        1055.21,
+        156.15
+      ]
+    },
+    {
+      "id": "52",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#use",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "use"
+      },
+      "attributes": [
+        "someValues",
+        "object"
+      ],
+      "domain": "5",
+      "range": "24",
+      "superproperty": [
+        "12"
+      ],
+      "pos": [
+        403.73,
+        143.6
+      ]
+    },
+    {
+      "id": "53",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#view_neighborhoods_as",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "view_neighborhoods_as"
+      },
+      "attributes": [
+        "someValues",
+        "object"
+      ],
+      "domain": "40",
+      "range": "30",
+      "superproperty": [
+        "12"
+      ],
+      "pos": [
+        299.67,
+        636.5
+      ]
+    },
+    {
+      "id": "54",
+      "iri": "http://www.w3.org/2002/07/owl#disjointWith",
+      "baseIri": "http://www.w3.org/2002/07/owl#",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "11",
+      "range": "4"
+    },
+    {
+      "id": "55",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#view_neighborhoods_In",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "view_neighborhoods_In"
+      },
+      "attributes": [
+        "someValues",
+        "object"
+      ],
+      "domain": "11",
+      "range": "10",
+      "superproperty": [
+        "12"
+      ],
+      "pos": [
+        1053.22,
+        792.07
+      ]
+    },
+    {
+      "id": "57",
+      "iri": "http://www.w3.org/2002/07/owl#disjointWith",
+      "baseIri": "http://www.w3.org/2002/07/owl#",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "4",
+      "range": "41"
+    },
+    {
+      "id": "58",
+      "iri": "http://www.w3.org/2002/07/owl#disjointWith",
+      "baseIri": "http://www.w3.org/2002/07/owl#",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "4",
+      "range": "0"
+    },
+    {
+      "id": "59",
+      "iri": "http://www.w3.org/2002/07/owl#disjointWith",
+      "baseIri": "http://www.w3.org/2002/07/owl#",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "5",
+      "range": "4"
+    },
+    {
+      "id": "60",
+      "iri": "http://www.w3.org/2002/07/owl#disjointWith",
+      "baseIri": "http://www.w3.org/2002/07/owl#",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "40",
+      "range": "4"
+    },
+    {
+      "id": "61",
+      "iri": "http://www.w3.org/2002/07/owl#disjointWith",
+      "baseIri": "http://www.w3.org/2002/07/owl#",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "4",
+      "range": "39"
+    },
+    {
+      "id": "62",
+      "iri": "http://www.w3.org/2002/07/owl#disjointWith",
+      "baseIri": "http://www.w3.org/2002/07/owl#",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "4",
+      "range": "26"
+    },
+    {
+      "id": "63",
+      "iri": "http://www.w3.org/2002/07/owl#disjointWith",
+      "baseIri": "http://www.w3.org/2002/07/owl#",
+      "label": "Disjoint With",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "56",
+      "range": "4"
+    },
+    {
+      "id": "64",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#view_neighborhoods_In",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "view_neighborhoods_In"
+      },
+      "attributes": [
+        "someValues",
+        "object"
+      ],
+      "domain": "56",
+      "range": "10",
+      "superproperty": [
+        "12"
+      ],
+      "pos": [
+        1107.94,
+        767.57
+      ]
+    },
+    {
+      "id": "18",
+      "iri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#is_strongly_associated_with",
+      "baseIri": "http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity",
+      "label": {
+        "IRI-based": "is_strongly_associated_with"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "34",
+      "range": "34",
+      "superproperty": [
+        "12"
+      ],
+      "pos": [
+        1759.55,
+        1056.03
+      ]
+    },
+    {
+      "id": "65",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "41",
+      "range": "1",
+      "pos": [
+        635.46,
+        836.54
+      ]
+    },
+    {
+      "id": "66",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "40",
+      "range": "1",
+      "pos": [
+        546.23,
+        756.17
+      ]
+    },
+    {
+      "id": "67",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "26",
+      "range": "1",
+      "pos": [
+        926.89,
+        518.18
+      ]
+    },
+    {
+      "id": "68",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "56",
+      "range": "1",
+      "pos": [
+        952.92,
+        809.16
+      ]
+    },
+    {
+      "id": "69",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "5",
+      "range": "1",
+      "pos": [
+        595.75,
+        513.43
+      ]
+    },
+    {
+      "id": "70",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "39",
+      "range": "1",
+      "pos": [
+        998.33,
+        565.06
+      ]
+    },
+    {
+      "id": "71",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "11",
+      "range": "1",
+      "pos": [
+        898.2,
+        833.65
+      ]
+    },
+    {
+      "id": "72",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "44",
+      "range": "4",
+      "pos": [
+        743.67,
+        4.26
+      ]
+    },
+    {
+      "id": "73",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "25",
+      "range": "4",
+      "pos": [
+        935.79,
+        155.58
+      ]
+    },
+    {
+      "id": "74",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "0",
+      "range": "1",
+      "pos": [
+        504.76,
+        591.27
+      ]
+    },
+    {
+      "id": "75",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "45",
+      "range": "4",
+      "pos": [
+        903.57,
+        137.31
+      ]
+    }
+  ]
+}

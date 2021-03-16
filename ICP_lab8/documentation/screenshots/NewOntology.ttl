@@ -1,0 +1,176 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/#> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@prefix : 		<http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity> .
+@base 			<http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity> .
+
+<http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity> rdf:type owl:Ontology ;
+                                                                             dc:title "undefined"@en;
+                                                                             dc:description "undefined"@en . 
+#################################################################
+
+###  Property Definitions (Number of Property) 2 ###
+#  --------------------------- Property 0------------------------- 
+owl:topObjectProperty rdf:type owl:ObjectProperty ;
+                      rdfs:label "topObjectProperty"@IRI-based; 
+                      rdfs:domain <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#SUBJECTS>;
+                      rdfs:range <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#OBJECTS> . 
+#  --------------------------- Property 1------------------------- 
+<http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#is_strongly_associated_with> rdf:type owl:ObjectProperty ;
+                                                                                                        rdfs:subPropertyOf owl:topObjectProperty;
+                                                                                                         rdfs:label "is_strongly_associated_with"@IRI-based . 
+###  Class Definitions (Number of Classes) 23 ###
+#  --------------------------- Class  0------------------------- 
+<http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#term_diversity> rdf:type owl:Class; 
+                                                                                            rdfs:subClassOf [ rdf:type owl:Restriction ; 
+                                                                                                              owl:onProperty <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#can_mean>;
+                                                                                                              owl:someValuesFrom <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#different_things>
+                                                                                                            ];
+                                                                                            rdfs:subClassOf [ rdf:type owl:Restriction ; 
+                                                                                                              owl:onProperty <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#can_refer>;
+                                                                                                              owl:someValuesFrom <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#heterogeneity>
+                                                                                                            ];
+                                                                                            rdfs:subClassOf <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#SUBJECTS> ;
+                                                                                            rdfs:label "term_diversity"@IRI-based . 
+#  --------------------------- Class  1------------------------- 
+<http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#we> rdf:type owl:Class; 
+                                                                                rdfs:subClassOf [ rdf:type owl:Restriction ; 
+                                                                                                  owl:onProperty <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#use>;
+                                                                                                  owl:someValuesFrom <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#conjoint_experiment>
+                                                                                                ];
+                                                                                owl:disjointWith <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#OBJECTS> ;
+                                                                                rdfs:subClassOf <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#SUBJECTS> ;
+                                                                                rdfs:label "we"@IRI-based . 
+#  --------------------------- Class  2------------------------- 
+<http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#different_things> rdf:type owl:Class; 
+                                                                                              rdfs:subClassOf <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#OBJECTS> ;
+                                                                                              rdfs:label "different_things"@IRI-based . 
+#  --------------------------- Class  3------------------------- 
+<http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#Blacks> rdf:type owl:Class; 
+                                                                                    owl:disjointWith <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#OBJECTS> ;
+                                                                                    rdfs:subClassOf [ rdf:type owl:Restriction ; 
+                                                                                                      owl:onProperty <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#view_neighborhoods_In>;
+                                                                                                      owl:someValuesFrom <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#addition>
+                                                                                                    ];
+                                                                                    rdfs:subClassOf <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#SUBJECTS> ;
+                                                                                    rdfs:label "Blacks"@IRI-based . 
+#  --------------------------- Class  4------------------------- 
+<http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#disagreeing> rdf:type owl:Class; 
+                                                                                         rdfs:subClassOf <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#OBJECTS> ;
+                                                                                         rdfs:label "disagreeing"@IRI-based . 
+#  --------------------------- Class  5------------------------- 
+<http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#where_largest> rdf:type owl:Class; 
+                                                                                           rdfs:subClassOf <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#OBJECTS> ;
+                                                                                           rdfs:label "where_largest"@IRI-based . 
+#  --------------------------- Class  6------------------------- 
+<http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#Latinos> rdf:type owl:Class; 
+                                                                                     rdfs:subClassOf [ rdf:type owl:Restriction ; 
+                                                                                                       owl:onProperty <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#view_neighborhoods_In>;
+                                                                                                       owl:someValuesFrom <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#neighborhoods>
+                                                                                                     ];
+                                                                                     rdfs:subClassOf <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#SUBJECTS> ;
+                                                                                     rdfs:label "Latinos"@IRI-based . 
+#  --------------------------- Class  7------------------------- 
+<http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#whites> rdf:type owl:Class; 
+                                                                                    rdfs:subClassOf <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#OBJECTS> ;
+                                                                                    rdfs:label "whites"@IRI-based . 
+#  --------------------------- Class  8------------------------- 
+<http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#heterogeneity> rdf:type owl:Class; 
+                                                                                           rdfs:subClassOf <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#OBJECTS> ;
+                                                                                           rdfs:label "heterogeneity"@IRI-based . 
+#  --------------------------- Class  9------------------------- 
+<http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#their_own_group> rdf:type owl:Class; 
+                                                                                             rdfs:subClassOf [ rdf:type owl:Restriction ; 
+                                                                                                               owl:onProperty <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#is_largest_as>;
+                                                                                                               owl:someValuesFrom <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#diverse>
+                                                                                                             ];
+                                                                                             rdfs:subClassOf [ rdf:type owl:Restriction ; 
+                                                                                                               owl:onProperty <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#is>;
+                                                                                                               owl:someValuesFrom <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#where_largest>
+                                                                                                             ];
+                                                                                             rdfs:subClassOf <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#SUBJECTS> ;
+                                                                                             rdfs:label "their_own_group"@IRI-based . 
+#  --------------------------- Class  10------------------------- 
+<http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#Whites> rdf:type owl:Class; 
+                                                                                    rdfs:subClassOf [ rdf:type owl:Restriction ; 
+                                                                                                      owl:onProperty <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#view_neighborhoods_as>;
+                                                                                                      owl:someValuesFrom <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#more_diverse_than_predominately_Black_neighborhoods>
+                                                                                                    ];
+                                                                                    owl:disjointWith <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#OBJECTS> ;
+                                                                                    rdfs:subClassOf <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#SUBJECTS> ;
+                                                                                    rdfs:label "Whites"@IRI-based . 
+#  --------------------------- Class  11------------------------- 
+<http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#association> rdf:type owl:Class; 
+                                                                                         rdfs:subClassOf [ rdf:type owl:Restriction ; 
+                                                                                                           owl:onProperty <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#is_stronger_than>;
+                                                                                                           owl:someValuesFrom <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#than_blacks>
+                                                                                                         ];
+                                                                                         rdfs:subClassOf [ rdf:type owl:Restriction ; 
+                                                                                                           owl:onProperty <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#is_stronger_for>;
+                                                                                                           owl:someValuesFrom <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#whites>
+                                                                                                         ];
+                                                                                         rdfs:subClassOf [ rdf:type owl:Restriction ; 
+                                                                                                           owl:onProperty <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#is>;
+                                                                                                           owl:someValuesFrom <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#stronger_for_Whites_than_for_Blacks>
+                                                                                                         ];
+                                                                                         rdfs:subClassOf <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#SUBJECTS> ;
+                                                                                         rdfs:label "association"@IRI-based . 
+#  --------------------------- Class  12------------------------- 
+<http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#more_diverse_than_predominately_Black_neighborhoods> rdf:type owl:Class; 
+                                                                                                                                 rdfs:subClassOf <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#OBJECTS> ;
+                                                                                                                                 rdfs:label "more_diverse_than_predominately_Black_neighborhoods"@IRI-based . 
+#  --------------------------- Class  13------------------------- 
+<http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#addition> rdf:type owl:Class; 
+                                                                                      rdfs:subClassOf <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#OBJECTS> ;
+                                                                                      rdfs:label "addition"@IRI-based . 
+#  --------------------------- Class  14------------------------- 
+<http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#OBJECTS> rdf:type owl:Class; 
+                                                                                     owl:disjointWith <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#association> ;
+                                                                                     owl:disjointWith <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#term_diversity> ;
+                                                                                     owl:disjointWith <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#their_own_group> ;
+                                                                                     owl:disjointWith <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#Latinos> ;
+                                                                                     rdfs:label "OBJECTS"@IRI-based . 
+#  --------------------------- Class  15------------------------- 
+<http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#SUBJECTS> rdf:type owl:Class; 
+                                                                                      rdfs:label "SUBJECTS"@IRI-based . 
+#  --------------------------- Class  16------------------------- 
+<http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#desirable> rdf:type owl:Class; 
+                                                                                       rdfs:subClassOf <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#OBJECTS> ;
+                                                                                       rdfs:label "desirable"@IRI-based . 
+#  --------------------------- Class  17------------------------- 
+<http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#stronger_for_Whites_than_for_Blacks> rdf:type owl:Class; 
+                                                                                                                 rdfs:subClassOf <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#OBJECTS> ;
+                                                                                                                 rdfs:label "stronger_for_Whites_than_for_Blacks"@IRI-based . 
+#  --------------------------- Class  18------------------------- 
+<http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#neighborhoods> rdf:type owl:Class; 
+                                                                                           rdfs:subClassOf <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#OBJECTS> ;
+                                                                                           rdfs:label "neighborhoods"@IRI-based . 
+#  --------------------------- Class  19------------------------- 
+<http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#conjoint_experiment> rdf:type owl:Class; 
+                                                                                                 rdfs:subClassOf <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#OBJECTS> ;
+                                                                                                 rdfs:label "conjoint_experiment"@IRI-based . 
+#  --------------------------- Class  20------------------------- 
+<http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#Asians> rdf:type owl:Class; 
+                                                                                    owl:disjointWith <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#OBJECTS> ;
+                                                                                    rdfs:subClassOf [ rdf:type owl:Restriction ; 
+                                                                                                      owl:onProperty <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#view_neighborhoods_In>;
+                                                                                                      owl:someValuesFrom <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#addition>
+                                                                                                    ];
+                                                                                    rdfs:subClassOf <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#SUBJECTS> ;
+                                                                                    rdfs:label "Asians"@IRI-based . 
+#  --------------------------- Class  21------------------------- 
+<http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#than_blacks> rdf:type owl:Class; 
+                                                                                         rdfs:subClassOf <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#OBJECTS> ;
+                                                                                         rdfs:label "than_blacks"@IRI-based . 
+#  --------------------------- Class  22------------------------- 
+<http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#diverse> rdf:type owl:Class; 
+                                                                                     rdfs:subClassOf <http://www.semanticweb.org/vyoma/ontologies/2021/2/ICP8_ontology_diversity#OBJECTS> ;
+                                                                                     rdfs:label "diverse"@IRI-based . 
